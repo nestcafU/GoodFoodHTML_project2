@@ -65,10 +65,26 @@ ul li a {
 }
 
 /* Search Placeholder */
+
+.search {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 input {
     margin-top: 2rem;
     border-radius: 50px;
     width: 400px;
+    height: 35px;
+}
+
+.search button {
+    position: relative;
+    top: 1rem;
+    margin-left: 1rem;
+    border-radius: 50px;
+    width: 5%;
     height: 35px;
 }
 
