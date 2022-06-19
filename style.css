@@ -1,0 +1,168 @@
+
+/* remove padding and margin of browser */
+html, body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* banner */
+.banner {
+    height: 600px;
+    position: relative;
+    bottom: 1rem;
+    opacity: 0.9;
+    box-shadow: -1px 9px 15px -10px rgba(0,0,0,0.75);
+    -webkit-box-shadow: -1px 9px 15px -10px rgba(0,0,0,0.75);
+    -moz-box-shadow: -1px 9px 15px -10px rgba(0,0,0,0.75);
+    background: url(https://images.unsplash.com/photo-1491185841098-9ce20f966624?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1632&q=80);
+}
+
+/* background navigation */
+.navbar {
+    background-color: #000;
+    height: 3.5rem;
+    opacity: .75;
+}
+
+/* navigaition menu */
+ul {
+    display: flex;
+    justify-content: right;
+    background-color: #000;
+    align-items: center;
+    color: #fff;
+    position: relative;
+}
+
+/* logo image */
+.logo {
+    position: relative;
+    right: 65rem;
+    bottom: -.6rem;
+}
+
+/* navigation link */
+ul li {
+    bottom: -.6rem;
+    position: relative;
+    right: 17rem;
+    padding: 0.5rem;
+    list-style-type: none;
+}
+
+/* remove navigation underline */
+ul li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+/* Text on the banner */
+.welcome {
+    color: #fff;
+    margin-top: 7rem;
+    text-align: center;
+}
+
+/* Search Placeholder */
+input {
+    margin-top: 2rem;
+    border-radius: 50px;
+    width: 400px;
+    height: 35px;
+}
+
+/* Text New Recipes */
+.recipes {
+    margin-top: 2rem;
+    text-align: center;
+    line-height: .8rem;
+}
+
+/* Dividing Line */
+hr {
+    margin-top: 2rem;
+    width: 17%;
+    opacity: 0.3;
+}
+
+/* Food Section */
+.artical {
+    display: flex;
+    margin-top: 2.5rem;
+    padding: 1rem;
+    justify-content: center;
+
+}
+
+/* Food Box */
+.food {
+    padding-top: 1rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    text-align: center;
+    width: 15%;
+    border-radius: 15px;
+    margin: 0 1rem;
+    box-shadow: -1px 4px 14px -2px rgba(0,0,0,0.75);
+    -webkit-box-shadow: -1px 4px 14px -2px rgba(0,0,0,0.75);
+    -moz-box-shadow: -1px 4px 14px -2px rgba(0,0,0,0.75);
+}
+
+/* Food Image */
+.food img {
+    width: 240px;
+    height: 240px;
+    max-width: 100%;
+    max-height: 100%;
+    border-radius: 20px;
+    margin: auto;
+    position: relative;
+    bottom: 2rem;
+}
+
+/* News on top food box */
+.news {
+    position: relative;
+    bottom: 2.3rem;
+    z-index: 1;
+    background-color: #a52a2a;
+    padding: 0.3rem;
+    width: 30%;
+    max-width: 100%;
+    margin: 0 auto;
+    max-height: 100%;
+    color: #fff;
+    border-radius: 20px;
+    left: .2rem;
+    box-shadow: -1px 9px 15px -10px rgba(0,0,0,0.75);
+    -webkit-box-shadow: -1px 9px 15px -10px rgba(0,0,0,0.75);
+    -moz-box-shadow: -1px 9px 15px -10px rgba(0,0,0,0.75);
+}
+
+/* Description of food*/
+.desc {
+    position: relative;
+    bottom: 1rem;
+}
+
+/* Footer */
+.footer {
+    position: relative;
+    top: 2.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background-color: #333;
+    line-height: 0;
+    color: #fff;
+    height: 3.5rem;
+    margin-top: auto;
+}
+
+/* Footer Text */
+.footer p {
+    padding: 0 0.5rem;
+    letter-spacing: 0.1rem;
+}
